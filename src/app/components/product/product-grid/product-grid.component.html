@@ -1,0 +1,9 @@
+<div class="container">
+  <ul class="grid cf">
+    <li class="item-grid" *ngFor="let product of products"> 
+      <div class="holder">
+        <app-product-item [product]="product"></app-product-item>
+      </div>
+    </li>
+  </ul>
+</div>

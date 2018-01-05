@@ -1,0 +1,15 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-grid{
+    display: block;
+    width: 20%;
+    float: left;
+    margin-bottom: 30px;
+}
+.holder{
+    padding: 0 15px;
+}
+
